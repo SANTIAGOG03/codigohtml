@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="profile">
+      <div class="profile_container">
+        <div class="profile_profileImg">
+          <img src="./images/profileImage.png" alt="shaif arfan">
+        </div>
+        <div>
+          <h1 class="profile_name">
+            <span class="profile_name_firstName">Santiago</span>
+            <span class="profile_name_lastName">Guerrero</span>
+          </h1>
+          <p class="profile_title">Software Developer</p>
+          <p class="description profile_description">
+            Estudiante desarollo de software cuarto semestre, apasionado por aprender cosas todos los dias y estar en constante crecimiento
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="group-1">
+      <div class="skills">
+        <h3 class="title">Expertise</h3>
+        <ul class="skills_list description">
+          <li>EXCEL INTERMEDIO</li>
+          <li>ENGLISH B2</li>
+          <li>HTML</li>
+          <li>C++</li>
+          <li>COORDINACION</li>
+        </ul>
+      </div>
+      <div class="ref">
+        <h3 class="title">Reference</h3>
+        <div class="ref_item">
+          <h4 class="ref_name">ELIANA VARGAS</h4>
+          <p class="description">CONTADURIA PUBLICA / 3108076817</p>
+        </div>
+        <div class="ref_item">
+          <h4 class="ref_name">SUSANA HORIA</h4>
+          <p class="description">COORINADOR LOGISTICO / 32024565513</p>
+        </div>
+      </div>
+
+      <div class="edu">
+        <h3 class="title">Education</h3>
+        <div class="edu_item">
+          <p class="item_preTitle">2005 - 2010</p>
+          <h4 class="item_title">INSTITUCION EDUCATIVA NUESTRA SEÑORA DEL ROSARIO</h4>
+          <p class="item_subtitle">
+           PRIMARIA BASICA
+          </p>
+        </div>
+        <div class="edu_item">
+          <p class="item_preTitle">2011-2022</p>
+          <h4 class="item_title">INSTITUCION EDUCATIVA SANTA ISABEL DE HUNGRIA</h4>
+          <p class="item_subtitle">
+            BACHILLERATO
+          </p>
+        </div>
+      </div>
+
+      <div class="certification">
+        <h3 class="title">certification</h3>
+        <div class="certification_item">
+          <p class="item_preTitle">2022</p>
+          <h4 class="item_title">PROMOTOR REGISTROS PUBLICOS / CAMARA DE COMERCIO DE TUNJA</h4>
+          <p class="description">
+            -Promover la renovacion de registros publicos
+            - realizar telemercadeo y concretar visitas con los comerciantes
+            - Atender las peticiones y consultas relacionadas con asuntos en competencia
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="group-2">
+      <div class="exp">
+        <h3 class="title">Experience</h3>
+        <div class="exp_item">
+          <p class="item_preTitle">2024</p>
+          <h4 class="item_title">Coordinador logistico / Airlaf SAS</h4>
+          <p class="item_subtitle"></p>
+          <p class=" description">
+            -Manejo de base de datos de la empresa
+            -Creacion constante de procesos para la automatizacion y mejoria de procesos en bodega
+            -liderazgo y comunicacion acertiva con los auxiliares de bodega
+          </p>
+        </div>
+
+      <div class="interest">
+        <h3 class="title">Interest</h3>
+        <div class="interest_items">
+          <div class="interest_item">
+            <i data-feather="music"></i>
+            <span>Music</span>
+          </div>
+          <div class="interest_item">
+            <i data-feather="book"></i>
+            <span>Books</span>
+          </div>
+          <div class="interest_item">
+            <i data-feather="map"></i>
+            <span>Travel</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+    <div class="group-3">
+      <div class="contact">
+        <h3 class="title">Contact</h3>
+        <div class="contact_info">
+          <p class="description">
+            Bogota, colombia
+          </p>
+          <p class="description">
+            3027247457
+          </p>
+          <p class="description">
+            Santiagoandresguerrerovargas@gmail.com
+          </p>
+        </div>
+      </div>
+      <div class="social">
+        <h3 class="title">Socials</h3>
+        <div class="social_items">
+          <a href="#" target="_b" class="social_item">
+            <i data-feather="github"></i>
+            <span>/santiagog</span>
+          </a>
+          <a href="#" target="_blank" class="social_item">
+            <i data-feather="twitter"></i>
+            <span>/santiagog</span>
+          </a>
+          <a href="#" target="_blank" class="social_item">
+            <i data-feather="linkedin"></i>
+            <span>/santiagog</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    feather.replace()
+  </script>
+</body>
+
+</html>
